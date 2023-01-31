@@ -1,0 +1,23 @@
+# Integer comparision
+-eq - is equal to - if [ "$a" -eq "$b" ]    #compare if two numbers are equal
+-ne - is not equal to -  if [ "$a" -ne "$b" ]    #compare if two numbers are not equal
+-gt - is greater than - if [ "$a" -gt "$b" ]    #compare if one number is greater than another number
+-ge - is greater than or equal to - if [ "$a" -ge "$b" ]    #compare if one number is greater than or equal to a number
+-lt - is less than - if [ "$a" -lt "$b" ]     #compare if one number is less than another number 
+-le - is less than or equal to - if [ "$a" -le "$b" ]    #compare if one number is less than or equal to a number
+
+< - is less than - if (( "$a" < "$b" ))
+<= - is less than or equal to - if (( "$a" <= "$b" ))
+> - is greater than - if (( "$a" > "$b" ))
+>= - is greater than or equal to - if (( "$a" >= "$b" ))
+
+#String comparision
+= - is equal to - if [ "$a" == "$b" ]   #compare if two strings are equal 
+== - is equal to - if [ "$a" == "$b" ]
+!= - is not equal to - if [ "$a" != "$b" ]  #compare if two strings are not equal
+< - is less than, in ASCII alphabetical order - if [[ "$a" < "$b" ]]
+> - is greater than, in ASCII alphabetical order - if [[ "$a" > "$b" ]]
+-n  evaluate if string length is greater than zero
+-z  evaluate if string length is equal to zero 
+
+
